@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c1c1c1;
+}
+
+#root {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1140px;
+}
+
+.App {
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+.settings {
+    border: 3px solid teal;
+    padding: 10px;
+    background-color: white;
+}
+
+.project {
+    margin-top: 10px;
+    position: relative;
+    padding: 20px;
+    border: 3px solid black;
+    height: 750px;
+    background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, white 1px);
+    background-size: 30px 30px;
+    background-position: center center;
+}
+
+.tank1 {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+.tank2 {
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
+
+.element {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    z-index: 10;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.valve1 {
+    top: 50px;
+}
+
+.flowmeter1 {
+    top: 32px;
+    left: 130px;
+}
+
+.pump {
+    left: 420px;
+    top: 580px;
+    transform: rotate(-90deg);
+}
+
+.valve2 {
+    left: 228px;
+    top: 580px;
+    transform: rotate(-90deg);
+}
+
+.flowmeter2 {
+    left: 405px;
+    top: 400px;
+    transform: rotate(-90deg);
+}
+
+.valve3 {
+    left: 660px;
+    top: 580px;
+}
+
+.flowmeter3 {
+    left: 780px;
+    top: 562px;
+}
+
+.thermometer1 {
+    top: 420px;
+    left: 130px;
+}
+
+.thermometer2 {
+    top: 420px;
+    left: 700px;
+}
+
+.heater1 {
+    top: 420px;
+    left: 200px;
+}
+
+.heater2 {
+    top: 420px;
+    left: 635px;
+}

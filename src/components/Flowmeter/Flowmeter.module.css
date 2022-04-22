@@ -1,0 +1,21 @@
+.wrapper {
+    display: block;
+    width: inherit;
+    height: inherit;
+    white-space: nowrap;
+}
+
+.btn {
+    display: block;
+    background-color: #ff5c5c;
+}
+
+.btn.active {
+    cursor: not-allowed;
+    background-color: green;
+}
+
+.btn img {
+    width: 100%;
+    height: 100%;
+}
